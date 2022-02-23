@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background--black {
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  color: #FFFFFF;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo {
+  margin-right: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+header nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .menu_expanded {
+  display: none;
+  position: absolute;
+  padding: 10px 20px;
+  left: 0;
+}
+
+header nav .menu_item {
+  padding: 5px 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+header nav .menu_item a {
+  color: #FFF;
+  font-size: .85em;
+}
+
+header nav .menu_item button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: .85em;
+}
+
+header nav .menu_item button:hover {
+  cursor: pointer;
+}
+
+header nav .menu_item:hover {
+  background-color: #767676;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+header nav .menu_item:hover > .menu_expanded {
+  display: block;
+  background-color: #767676;
+}
+/*# sourceMappingURL=index.css.map */
