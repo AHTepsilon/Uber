@@ -70,6 +70,7 @@ header nav .menu_expanded {
   position: absolute;
   padding: 10px 20px;
   left: 0;
+  width: 200px;
 }
 
 header nav .menu_item {
@@ -103,5 +104,36 @@ header nav .menu_item:hover {
 header nav .menu_item:hover > .menu_expanded {
   display: block;
   background-color: #767676;
+}
+
+.sldr_img {
+  width: 100%;
+}
+
+.about {
+  background-color: #e6e6e6;
+  padding: 50px;
+}
+
+.about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_container .about_column {
+  width: 500px;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
